@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.wp-block-navigation {
+  @apply flex space-x-6 text-gray-800 font-semibold;
+}
+
+.wp-block-navigation a {
+  @apply hover:text-blue-500 transition;
+}
