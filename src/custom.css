@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
-.wp-block-navigation {
-  @apply flex space-x-6 text-gray-800 font-semibold;
+a {
+  @apply no-underline;
 }
 
-.wp-block-navigation a {
-  @apply hover:text-blue-500 transition;
+.primary-menu .menu-item {
+  @apply text-white;
+}
+
+.login-btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-full;
+}
+
+.hero-bg {
+  @apply bg-gradient-to-r from-blue-500 via-indigo-500 to-blue-500;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }

@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"tagName":"nav","className":"meyo-navigation"} -->
-<nav class="meyo-navigation">
+<nav class="meyo-navigation fixed top-0 right-0 left-0 z-50 p-4 text-white">
     <div class="container mx-auto flex items-center justify-between p-4">
         <!-- Logo -->
         <a href="/" class="flex items-center">
@@ -16,11 +16,13 @@
             <span class="text-xl font-bold ml-2">Meyo</span>
         </a>
 
+        <div class="primary-menu">
         <!-- Navigation Block -->
         <!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","justifyContent":"right"}} /-->
+        </div>
     </div>
     <div class="flex justify-end">
-      <button class="bg-blue-500 text-white px-4 py-2 rounded">Connexion</button>
+      <a href="#" class="login-btn">Connexion</a>
     </div>
 </nav>
 <!-- /wp:group -->
