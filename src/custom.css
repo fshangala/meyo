@@ -1,7 +1,12 @@
+@config "./../tailwind.config.js";
 @import "tailwindcss";
 
 a {
   @apply no-underline;
+}
+
+.meyo-navigation {
+  @apply fixed top-0 right-0 left-0 z-50 p-4 text-white;
 }
 
 .primary-menu .menu-item {
