@@ -11848,6 +11848,20 @@ textarea.form-control-lg {
   z-index: 100;
 }
 
+.primary-menu .menu-item {
+  font-size: larger;
+  color: white;
+}
+.primary-menu .menu-item:hover {
+  color: #0d6efd;
+}
+.primary-menu .menu-item img {
+  transform: rotate(90deg);
+  width: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 .hero-bg {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
@@ -11862,6 +11876,16 @@ textarea.form-control-lg {
   max-width: 800px;
   margin: auto;
   padding: 50vh 0;
+}
+
+.section-two .paragraph-one {
+  max-width: 800px;
+  margin: auto;
+}
+.section-two .text-box {
+  max-width: 800px;
+  margin: auto;
+  margin-top: -50px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
