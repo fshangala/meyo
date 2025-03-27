@@ -1,0 +1,25 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+.site-header {
+  z-index:  100;
+}
+.hero-bg {
+  background-image: url('../images/hero-bg.jpg');
+  background-size: fill;
+  background-position: center;
+  background-clip: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  background-repeat: no-repeat;
+}
+.hero-content {
+  color: white;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 50vh 0;
+}

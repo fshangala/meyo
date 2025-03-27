@@ -11,7 +11,9 @@
     "url": "git+https://github.com/fshangala/meyo.git"
   },
   "keywords": [
-    "meyo"
+    "wordpress",
+    "block",
+    "theme"
   ],
   "author": "fshangala",
   "license": "ISC",
@@ -20,7 +22,7 @@
   },
   "homepage": "https://github.com/fshangala/meyo#readme",
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.15",
-    "tailwindcss": "^4.0.15"
+    "bootstrap": "^5.3.3",
+    "sass": "^1.86.0"
   }
 }
