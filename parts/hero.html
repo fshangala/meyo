@@ -2,7 +2,10 @@
 <div class="wp-block-group position-relative vh-100 has-background"
   style="background:linear-gradient(135deg,rgb(0,13,71) 33%,rgb(0,38,255) 86%)">
   <!-- wp:group {"metadata":{"name":"hero-background"},"className":"hero-bg position-absolute top-0 start-0 end-0 vh-100","layout":{"type":"constrained"}} -->
-  <div class="wp-block-group hero-bg position-absolute top-0 start-0 end-0 vh-100"></div>
+  <div class="wp-block-group hero-bg position-absolute top-0 start-0 end-0 vh-100"><!-- wp:spacer {"height":"1px"} -->
+    <div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+  </div>
   <!-- /wp:group -->
 
   <!-- wp:group {"metadata":{"name":"background-overlay"},"className":"position-absolute top-0 start-0 end-0 vh-100","style":{"color":{"background":"#00000045"}},"layout":{"type":"constrained"}} -->
@@ -10,8 +13,8 @@
     style="background-color:#00000045"></div>
   <!-- /wp:group -->
 
-  <!-- wp:group {"className":"hero-content","layout":{"type":"constrained"}} -->
-  <div class="wp-block-group hero-content"><!-- wp:heading {"textAlign":"center","className":"fs-1 fw-bold"} -->
+  <!-- wp:group {"className":"hero-content z-1","layout":{"type":"constrained"}} -->
+  <div class="wp-block-group hero-content z-1"><!-- wp:heading {"textAlign":"center","className":"fs-1 fw-bold"} -->
     <h2 class="wp-block-heading has-text-align-center fs-1 fw-bold">Centralisez, simplifiez, performez</h2>
     <!-- /wp:heading -->
 
