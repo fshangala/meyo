@@ -11888,4 +11888,19 @@ textarea.form-control-lg {
   margin-top: -50px;
 }
 
+.faq {
+  margin-top: 16px;
+}
+.faq .faq-question {
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+.faq .faq-answer {
+  margin-top: -20px;
+  height: fit-content;
+  z-index: 10;
+  transition: all 1s;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
